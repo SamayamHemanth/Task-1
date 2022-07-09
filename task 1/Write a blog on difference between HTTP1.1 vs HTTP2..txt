@@ -1,0 +1,39 @@
+HTTP - Hyper Text Transfer Protocol
+
+Definition: Hyper Text Transfer Protocol(HTTP) is to accomplish the way to transfer the data from client to server.
+
+example: When we use computer,mobile phone or laptop devices in home.The HTTP server which is a web host running
+         web server software such as Apache or Internet Information Services (IIS).when we access a website,our
+         browser send a request to the corresponding web server and it responds with an HTTP status code.
+
+
+Difference Between HTTP/1.1 and HTTP/2:
+
+HTTP/1.1: * A connection can be reused,which can save time and no longer needed to be opened multiple times to display
+            the resources embedded in the single document.
+          
+          * pipelining also added and this allows a second request that to be sent before the  answer to the first one
+            was fully transmitted.due to this the latency of communication is lowerd.
+   
+          * Expands on the catching support by using additional headers like cache-control,conditional headers like 
+            if match and by using entity tags.
+
+          * content negotiation like language,encoding and type were introduced.A client and server could now agree on
+            exchange of contents.
+
+          * Thanks to the host header and the ability to host differnt domines from the same IP address allowed server
+            collocation.
+
+HTTP/2: * It is a binary protocol and it can not be read and create manually.
+      
+        * It allows the implementation of the improved optimization technique.
+
+        * It does not change much in terms of caching.With the server push feature if the client finds the resources
+          that are already present in the cache, it can cancle the pushed stream.
+
+        * HTTP/2 is a multiplexed protocol and the parllel requests can be made over the same connection, removing 
+          the constraints of the HTTP/1.x protocol. 
+
+        * From the previous versions of security concerns are continue to be seen in the http/2. It is better equiped
+          to deal with them due to the new TLS features like connection error type security.
+        

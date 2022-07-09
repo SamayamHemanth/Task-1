@@ -1,0 +1,35 @@
+Object: It is the instance through which we can access the properties and values and it is the most important data type 
+        that forms the bulding blocks in the javascript.Everything in real time is an object.
+        Examples:car,fan,Chair,bike,keyboard etc...
+
+       * Objects are collection of key value pairs.These keys can be variables or functions and are called as properties
+         and methods.
+  
+         Example: If an object is a student, it will have properties like name,age,data of birth,Roll number etc...
+
+
+syntax representation of object:
+
+         let objectname= {};//empty object
+
+
+Example 1:  If an object is a student, it will have properties like name,age,data of birth,Roll number etc...
+
+         let student= new object();
+
+          student.name= "Hemanth";
+          student.age=21;
+          student.rollnumber="11189H012";
+
+
+Example 2: If an object is a car,it will have properties like brand,model,year etc...
+        
+         let car= new object();
+         car.brand="ford";
+         car.model="mustang";
+         car.year=1969;
+    
+
+
+
+
